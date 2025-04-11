@@ -1,0 +1,629 @@
+*
+{
+    margin: 0; 
+    padding: 0;
+    box-sizing:border-box;
+    font-family: 'Popins', sans-serif;
+}
+
+#homepage
+{
+    background-image: url(image/bg.png);
+    background-size: cover;
+    background-position: center;
+    color: white;
+} 
+
+header
+{
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%; 
+    padding: 5px 10%; 
+    background:rgb(22, 22, 22);
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    z-index: 100; 
+   
+}
+
+.navbar a
+{
+    font-size: 18px;
+    color: white; 
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;  
+}
+
+.navbar a:hover
+{
+   color: rgb(27, 196, 196); 
+}
+
+.picture
+{
+    float: right; 
+    max-width: 960px;
+}
+
+.picture img
+{
+    width: 100%;
+    height: 638px;
+    object-fit: cover;
+}
+
+
+.home
+{
+    height: 92vh; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    display: inline-flex;
+    padding: 0 10%; 
+}
+
+.home-content
+{
+    max-width: 600px; 
+    margin-top: 50px;
+}
+
+.home-content h2
+{
+    font-size: 15px; 
+    color:rgb(27, 196, 196); 
+    padding-left: 83px;
+}
+
+.home-content h1
+{
+   font-size: 70px; 
+   font-weight: 700;
+   color: white;
+   text-align: center;
+}
+
+.home-content span
+{
+   color:rgb(27, 196, 196); 
+   text-align: center; 
+}
+
+.home-content hr
+{
+    margin: 10px 0 30px; 
+    border: .2px solid rgb(27, 196, 196);
+}
+
+.home-content p
+{
+    font-size: 16px; 
+    margin: 10px 0 30px;
+    text-align:center;
+}
+.home-content .btn-box
+{
+    width: 345px; 
+    height: 50px; 
+    text-align: center;
+    justify-content: center;
+    display: inline-flex;
+    margin-left: 120px;
+}
+.btn-box a
+{
+  display: inline-flex; 
+  justify-content: center; 
+  align-items: center; 
+  text-align: center;
+  width: 120px;
+  height: 80%; 
+  background:transparent; 
+  border: 1px solid rgb(27, 196, 196); 
+  border-radius: 8px; 
+  font-size: 16px; 
+  color: rgb(27, 196, 196); 
+  text-decoration: none; 
+  font-weight: 600;
+  letter-spacing: 1px; 
+}
+
+.btn-box :hover
+{
+    background-color: rgb(27, 196, 196);
+    color: rgb(19, 19, 19);
+}
+
+
+/*----ABOUT----*/
+
+#aboutpage
+{
+    background: linear-gradient(to left, rgb(59, 59, 59), rgb(17, 17, 17),
+    black);
+   color: white; 
+}
+
+#about
+{
+    padding: 30px 0; 
+    height: 93vh; 
+}
+
+.row
+{
+    display: flex; 
+    flex-wrap: wrap;
+}
+
+
+
+.about-title
+{ 
+   margin-left: 200px;
+   margin-top: 90px;
+   color:rgb(27, 196, 196);
+}
+
+.img h1
+{
+  position: absolute;
+  bottom: 60px;
+  left: 100px;  
+  font-size: 60px;
+  text-align: center;
+  text-justify: inter-word;
+  text-shadow: 2px 2px rgb(60, 102, 119);
+
+}
+
+.about-title p
+{
+  margin-top: 25px;
+  color: white; 
+  text-align: justify;
+}
+
+.logo-group
+{
+    padding-top: 20px;   
+}
+.small-logo
+{
+    padding-top: 8px;    
+}
+
+.small-logo p
+{
+    color:white;
+    display: inline-block;
+    align-items: center;
+    padding: 8px;
+    padding-top: 5px;
+    position: relative;
+    bottom: 13px;
+}
+
+.small-logo :hover
+{
+    transform: scale(1.1);
+}
+
+
+
+/*---PORTOFOLIO---*/
+
+#portpage
+{
+    background-image: url(image/bg-port.jpeg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+#porfolio
+{
+    padding: 50px 0; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    min-height: 100vh; 
+    color: white; 
+    overflow: hidden; 
+}
+
+.works h1
+{
+   padding-top: 100px;
+   padding-bottom: 30px;
+   text-align: center;
+   color: white;
+   font-size: 32px;
+}
+
+.sample
+{
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+}
+
+.gallery
+{
+  display: inline-block; 
+  border-radius: 8px; 
+  margin: 20px;
+}
+
+.title
+{
+    text-align: center; 
+    color: rgb(7, 7, 7);
+    align-items: center;
+    justify-content: center;
+}
+
+.gallery :hover
+{ 
+    transform: scale(1.1);
+}
+
+.gallery img
+{
+    width: 100%;
+    height: auto; 
+}
+
+/*-----CONTACT-----*/
+
+#contact
+{
+    padding: 50px 0; 
+}
+
+.contact-title
+{
+   padding-top: 100px;
+   padding-bottom: 50px;
+   text-align: center;
+   color: white;
+   font-size: 32px;
+}
+
+.left
+{
+flex-basis: 35%;
+}
+
+.right
+{
+flex-basis: 60%
+}
+
+.container
+{   
+    justify-content: center;
+    flex-direction: column;
+    display: flex;  
+    align-items: center;
+}
+
+
+.right form
+{
+    width: 1000px;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;  
+    align-items: center;
+
+}
+
+form input, form textarea
+{
+width: 100%;
+border: 0; 
+outline: none; 
+background: rgb(59, 59, 59);
+padding: 15px; 
+margin: 15px 0; 
+color: white;
+font-size: 15px;
+}
+
+form button 
+{
+  padding: 10px 20px;
+  color: rgb(17, 17, 17);
+  background-color: rgb(27, 196, 196);
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  margin-top: 10px;
+}
+
+form button:hover 
+{
+ background-color: rgb(238, 238, 238);
+ color:rgb(19, 19, 19);
+ 
+}
+
+/*----FOOTER----*/
+
+footer
+{
+    width: 100%;
+    text-align: center;
+    padding: 0px; 
+    font-weight: 100;
+    margin-top: 20px;
+}
+
+
+/*------mobile view------*/
+
+nav .mobile 
+{
+    display: none;
+}
+
+@media only screen and (max-width: 600px)
+
+{
+
+#homepage
+{
+    background-image: url(mobile/mobile-bg.png);
+} 
+
+.home-content h2
+{
+    display: none;
+}
+
+.home-content h1
+{
+   font-size: 32px; 
+   color: white;
+   align-items: center;
+   padding-bottom: 250px;
+}
+
+.home-content span
+{
+   color:rgb(27, 196, 196); 
+   text-align: center; 
+}
+
+.home-content hr
+{
+    display: none;
+}
+
+.home-content p
+{
+    display: none;
+}
+.home-content .btn-box
+{   
+
+    width: 20px; 
+    height: 10px; 
+    border: 5px;
+    text-align: center;
+    justify-content: center;
+    display: inline-flex;
+    margin-left: 10px;
+}
+.btn-box a
+{
+  display: inline-flex; 
+  justify-content: center; 
+  align-items: center; 
+  text-align: center;
+  width: 30px;
+  height: 30%; 
+  background:transparent; 
+  border-radius: 10px; 
+  font-size: 12px; 
+  color: white; 
+  text-decoration: none; 
+  letter-spacing: 1px; 
+}
+
+.btn-box :hover
+{
+    color: rgb(19, 19, 19);
+}
+
+header
+{
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%; 
+    padding: 5px 10%; 
+    background:rgb(22, 22, 22);
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    z-index: 100; 
+   
+}
+
+.navbar a
+{
+    font-size: 15px;
+    color: white; 
+    text-decoration: none;
+    font-weight: 100;
+    margin-left: 15px;  
+}
+
+.navbar a:hover
+{
+   color: rgb(27, 196, 196); 
+}
+
+/*-----ABOUT-----*/
+
+.about-title
+{ 
+   margin-left: 10px;
+   margin-top: 30px;
+   color:rgb(27, 196, 196);
+}
+
+.img
+{
+   display: none; 
+}
+
+.img h1
+{
+  position: absolute;
+    font-size: 25px;
+  text-align: center;
+  text-justify: inter-word;
+  text-shadow: 2px 2px rgb(60, 102, 119);
+
+}
+
+.about-title p
+{
+  margin-top: 25px;
+  color: white; 
+  text-align: justify;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.logo-group
+{   
+    flex-wrap: column;
+    padding-top: 20px;   
+}
+.small-logo
+{
+    flex-wrap: column;
+    padding-top: 8px;    
+}
+
+.small-logo p
+{
+    color:white;
+    padding: 8px;
+    padding-top: 5px;
+    position: relative;
+    bottom: 13px;
+}
+
+.small-logo :hover
+{
+    transform: scale(1.1);
+}
+
+/*-----PORTFOLIO-----*/
+
+#portpage
+{
+    background-image: url(image/bg-port.jpeg);
+}
+
+.works h1
+{
+   padding-top: 20px;
+   padding-bottom: 30px;
+   text-align: center;
+   color: white;
+   font-size: 32px;
+}
+
+.sample
+{
+    align-items: center; 
+    justify-content: center; 
+    flex-direction: column;
+}
+
+/*.gallery
+{
+  border-radius: 8px; 
+  margin: 20px;
+}*/
+
+.title
+{
+    text-align: center; 
+    color: rgb(233, 228, 228);
+    align-items: center;
+    justify-content: center;
+}
+
+.gallery :hover
+{ 
+    transform: scale(1.1);
+}
+
+.gallery img
+{
+    width: 100%;
+    height: auto; 
+}
+
+/*-----CONTACT-----*/
+
+.right form
+{
+    width: 300px;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;  
+    align-items: center;
+
+}
+
+form input, form textarea
+{
+width: 100%;
+border: 0; 
+outline: none; 
+background: rgb(59, 59, 59);
+padding: 15px; 
+margin: 15px 0; 
+color: white;
+font-size: 15px;
+}
+
+form button 
+{
+  padding: 10px 20px;
+  color: rgb(17, 17, 17);
+  background-color: rgb(27, 196, 196);
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  margin-top: 10px;
+}
+
+form button:hover 
+{
+ background-color: rgb(238, 238, 238);
+ color:rgb(19, 19, 19);
+ 
+}
+}
+
+
+
